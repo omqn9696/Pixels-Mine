@@ -308,6 +308,6 @@
 
     observer.observe(document.body, { childList: true, subtree: true });
     window.addEventListener('load', createToggleUI);
-    createToggleButton();
+    //createToggleButton();
     observeForTaskPanel();
 })();
